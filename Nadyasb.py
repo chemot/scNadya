@@ -76,7 +76,7 @@ def sendMessageWithMention(to, mid):
         
 def helpmessage():
     helpMessage = "╔═══════════════" + "\n" + \
-                  "╠♥ ✿✿✿ NADYA_TJ ✿✿✿ ♥" + "\n" + \
+                  "╠ঔৣ͡ஓீ͜⃢🌐SepriBotঔৣ͡ஓ " + "\n" + \
                   "║" + "\n" + \
                   "╠══✪〘 Help Message 〙✪══" + "\n" + \
                   "║" + "\n" + \
@@ -151,7 +151,7 @@ def helpmessage():
                   "╠➥ SearchImage「Search」" + "\n" + \
                   "╠➥ ScreenshootWebsite「LinkUrl」" + "\n" + \
                   "║" + "\n" + \
-                  "╚═〘 Credits By: ©Nadya_TJ™  〙"
+                  ""
     return helpMessage
     
 def helptexttospeech():
@@ -322,7 +322,7 @@ def helptranslate():
                        "╠ fil : Filipino" + "\n" + \
                        "╠ he : Hebrew" + "\n" + \
                        "╚══[ Jangan Typo ]" + "\n" + "\n\n" + \
-                         "Contoh : tr-id Nadya Cantik"
+                         ""
     return helpTranslate
 #==============================================================================#
 def lineBot(op):
@@ -390,7 +390,7 @@ def lineBot(op):
                 elif text.lower() == 'about':
                     try:
                         arr = []
-                        owner = "u14f64e139a3817afaabe27d237afb36b"
+                        owner = "u9f09cfcb17d037e2936b751bd9d40ead"
                         creator = nadya.getContact(owner)
                         contact = nadya.getContact(nadyaMID)
                         grouplist = nadya.getGroupIdsJoined()
