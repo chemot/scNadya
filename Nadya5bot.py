@@ -139,7 +139,7 @@ def sendMessageWithMention(to, mid):
         
 def helpmessage():
     helpMessage = "╔═══════════════" + "\n" + \
-                  "╠♥ ✿✿✿ NADYA_TJ ✿✿✿ ♥" + "\n" + \
+                  "╠      SEPRI_CHE " + "\n" + \
                   "║" + "\n" + \
                   "╠══✪〘 Help Message 〙✪══" + "\n" + \
                   "║" + "\n" + \
@@ -237,7 +237,7 @@ def helpmessage():
                   "╠➥ JoinAll" + "\n" + \
                   "╠➥ ByeAll" + "\n" + \
                   "║" + "\n" + \
-                  "╚═〘 Credits By: ©Nadya_TJ™  〙"
+                  "╚═〘 sepribot v123  〙"
     return helpMessage
     
 def helptexttospeech():
